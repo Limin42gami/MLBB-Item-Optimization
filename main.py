@@ -5,10 +5,10 @@ from typing import Dict, List, Tuple
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-DB_ROOT = PROJECT_ROOT / "MLBB-API-main (Database)" / "v1"
-HERO_PATH = DB_ROOT / "hero-meta-final.json"
-ITEM_PATH = DB_ROOT / "item-meta-final.json"
-EMBLEM_PATH = DB_ROOT / "emblem-meta-final.json"
+DEFAULT_DB_CANDIDATES = (
+    PROJECT_ROOT / "Data",
+    PROJECT_ROOT / "MLBB-API-main (Database)" / "v1",
+)
 
 
 HERO_TO_EMBLEM = {
@@ -54,6 +54,24 @@ class MatchContext:
 def read_json(path: Path) -> Dict:
     with path.open("r", encoding="utf-8") as file:
         return json.load(file)
+
+
+def resolve_db_root(data_dir: Path = None) -> Path:
+    if data_dir is not None:
+        candidate_dirs = (Path(data_dir),)
+    else:
+        candidate_dirs = DEFAULT_DB_CANDIDATES
+
+    required = ("hero-meta-final.json", "item-meta-final.json", "emblem-meta-final.json")
+    for directory in candidate_dirs:
+        if all((directory / name).exists() for name in required):
+            return directory
+
+    searched_paths = ", ".join(str(p) for p in candidate_dirs)
+    raise FileNotFoundError(
+        "Could not locate MLBB data files. Expected "
+        f"{', '.join(required)} in one of: {searched_paths}"
+    )
 
 
 def normalize_name(name: str) -> str:
@@ -276,10 +294,11 @@ def print_result(hero: Dict, emblem: Dict, items: Dict[str, List[Dict]], order: 
         print(f"- {core_name}: {parts}")
 
 
-def load_mlbb_data() -> Dict:
-    hero_payload = read_json(HERO_PATH)
-    item_payload = read_json(ITEM_PATH)
-    emblem_payload = read_json(EMBLEM_PATH)
+def load_mlbb_data(data_dir: Path = None) -> Dict:
+    db_root = resolve_db_root(data_dir)
+    hero_payload = read_json(db_root / "hero-meta-final.json")
+    item_payload = read_json(db_root / "item-meta-final.json")
+    emblem_payload = read_json(db_root / "emblem-meta-final.json")
 
     heroes = hero_payload.get("data", [])
     items_raw = item_payload.get("data", [])
@@ -339,11 +358,6 @@ def main() -> None:
         result["path"],
         result["matchup_score"],
     )
-
-    print("\nModeling roadmap:")
-    print("- Classification: Logistic Regression / Random Forest / XGBoost on one-hot features")
-    print("- Ranking: LightGBM Ranker with pairwise preference labels")
-    print("- Sequence: LSTM/Transformer for next-item prediction by timestamped matches")
 
 
 if __name__ == "__main__":
