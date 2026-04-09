@@ -1,3 +1,5 @@
+Planning (9/4/2026)
+
 📌 MLBB Item Optimization
 
 This project focuses on building a machine learning–based system to recommend optimal item builds and emblem configurations for Mobile Legends: Bang Bang based on in-game draft conditions.
@@ -38,6 +40,7 @@ The model is trained using the following core inputs:
     - Situational items (Items that the hero need to buy based on situation)
     - Build Order
 
+Progress (9/4/2026)
 🔍 Current Observations
 1. Predictions may lack accuracy due to limited rule integration.
    - This system relies primarily on machine learning, which can lead to suboptimal recommendations without domain-specific constraints.
