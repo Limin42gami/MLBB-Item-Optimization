@@ -188,7 +188,7 @@
             "item_name": "Dagger",
             "id": "a005",
             "icon": "Dagger.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack",
             "data": [
                 {
@@ -319,7 +319,7 @@
             "item_name": "Fury Hammer",
             "id": "a008",
             "icon": "Fury Hammer.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -538,7 +538,7 @@
             "item_name": "Iron Hunting Bow",
             "id": "a013",
             "icon": "Iron Hunting Bow.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack",
             "data": [
                 {
@@ -579,7 +579,7 @@
             "item_name": "Javelin",
             "id": "a014",
             "icon": "Javelin.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack",
             "data": [
                 {
@@ -617,7 +617,7 @@
             "item_name": "Knife",
             "id": "a015",
             "icon": "Knife.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack",
             "data": [
                 {
@@ -657,7 +657,7 @@
             "item_name": "Legion Sword",
             "id": "a016",
             "icon": "Legion Sword.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -697,7 +697,7 @@
             "item_name": "Magic Blade",
             "id": "a017",
             "icon": "Magic Blade.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -829,7 +829,7 @@
             "item_name": "Ogre Tomahawk",
             "id": "a020",
             "icon": "Ogre Tomahawk.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -870,7 +870,7 @@
             "item_name": "Regular Spear",
             "id": "a021",
             "icon": "Regular Spear.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -911,7 +911,7 @@
             "item_name": "Rogue Meteor",
             "id": "a022",
             "icon": "Rogue Meteor.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -1044,7 +1044,7 @@
             "item_name": "Swift Crossbow",
             "id": "a025",
             "icon": "Swift Crossbow.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Attack",
             "data": [
                 {
@@ -1089,7 +1089,7 @@
             "item_name": "Vampire Mallet",
             "id": "a026",
             "icon": "Vampire Mallet.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack",
             "data": [
                 {
@@ -1256,7 +1256,7 @@
             "item_name": "Expert Gloves",
             "id": "am001",
             "icon": "Expert Gloves.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Attack & Magic",
             "data": [
                 {
@@ -1462,7 +1462,7 @@
             "item_name": "Ares Belt",
             "id": "d002",
             "icon": "Ares Belt.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -1543,7 +1543,7 @@
             "item_name": "Black Ice Shield",
             "id": "d004",
             "icon": "Black Ice Shield.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -1810,7 +1810,7 @@
             "item_name": "Dreadnaught Armor",
             "id": "d010",
             "icon": "Dreadnaught Armor.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -1895,7 +1895,7 @@
             "item_name": "Healing Necklace",
             "id": "d012",
             "icon": "Healing Necklace.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Defense",
             "data": [
                 {
@@ -1935,7 +1935,7 @@
             "item_name": "Hero's Ring",
             "id": "d013",
             "icon": "Heros Ring.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Defense",
             "data": [
                 {
@@ -2017,7 +2017,7 @@
             "item_name": "Leather Jerkin",
             "id": "d015",
             "icon": "Leather Jerkin.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Defense",
             "data": [
                 {
@@ -2057,7 +2057,7 @@
             "item_name": "Magic Resist Cloak",
             "id": "d016",
             "icon": "Magic Resist Cloak.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Defense",
             "data": [
                 {
@@ -2097,7 +2097,7 @@
             "item_name": "Molten Essence",
             "id": "d017",
             "icon": "Molten Essence.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -2269,7 +2269,7 @@
             "item_name": "Silence Robe",
             "id": "d021",
             "icon": "Silence Robe.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -2310,7 +2310,7 @@
             "item_name": "Steel Legplates",
             "id": "d022",
             "icon": "Steel Legplates.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Defense",
             "data": [
                 {
@@ -2393,7 +2393,7 @@
             "item_name": "Vitality Crystal",
             "id": "d024",
             "icon": "Vitality Crystal.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Defense",
             "data": [
                 {
@@ -2433,7 +2433,7 @@
             "item_name": "Azure Blade",
             "id": "m001",
             "icon": "Azure Blade.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -2514,7 +2514,7 @@
             "item_name": "Book of Sages",
             "id": "m003",
             "icon": "Book of Sages.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Magic",
             "data": [
                 {
@@ -2693,7 +2693,7 @@
             "item_name": "Elegant Gem",
             "id": "m007",
             "icon": "Elegant Gem.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -2781,7 +2781,7 @@
             "item_name": "Exotic Veil",
             "id": "m009",
             "icon": "Exotic Veil.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -3134,7 +3134,7 @@
             "item_name": "Magic Necklace",
             "id": "m017",
             "icon": "Magic Necklace.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Magic",
             "data": [
                 {
@@ -3174,7 +3174,7 @@
             "item_name": "Magic Wand",
             "id": "m018",
             "icon": "Magic Wand.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -3214,7 +3214,7 @@
             "item_name": "Mystery Codex",
             "id": "m019",
             "icon": "Mystery Codex.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Magic",
             "data": [
                 {
@@ -3254,7 +3254,7 @@
             "item_name": "Mystic Container",
             "id": "m020",
             "icon": "Mystic Container.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -3295,7 +3295,7 @@
             "item_name": "Power Crystal",
             "id": "m021",
             "icon": "Power Crystal.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Magic",
             "data": [
                 {
@@ -3376,7 +3376,7 @@
             "item_name": "Tome of Evil",
             "id": "m023",
             "icon": "Tome of Evil.png",
-            "item_tier": "3",
+            "item_tier": "2",
             "item_category": "Magic",
             "data": [
                 {
@@ -3500,7 +3500,7 @@
             "item_name": "Boots",
             "id": "mo002",
             "icon": "Boots.png",
-            "item_tier": "3",
+            "item_tier": "1",
             "item_category": "Movement",
             "data": [
                 {
